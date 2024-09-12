@@ -1,0 +1,29 @@
+/* this is for the main box with flex item it makes an item grow or shrink equally to fill#all of the 
+the available space */
+
+.container{
+
+    height: 180px;
+    background: rgb(190, 145, 175);
+    padding: 16px;
+    border: solid 4px indigo;
+    display: flex;
+
+    /* Adds spaces between items and around  */
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.item{
+
+    /* flex 1 makes the item to grow and fill the space */
+    /* flex: 1; */
+
+    width: 40px;
+    height: 50px;
+    background: rgb(44, 182, 241);
+    border: solid 3px rgb(81, 75, 75);
+
+}
