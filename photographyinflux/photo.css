@@ -1,0 +1,31 @@
+/* learning html and css alignment by building photographyinflux.com navigation */
+
+/* first we need to make everything be in the :horizontal we will do that using display flex */
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-right: 40px;
+}
+
+img{
+    width: 180px;
+    height: auto;
+}
+
+li{
+    list-style-type: none;
+}
+
+li:hover{
+    background-color: rgb(181, 181, 181);
+}
+
+.Image{
+    margin-right: auto;
+}
+
+.Image:hover{
+    background-color: white;
+}
