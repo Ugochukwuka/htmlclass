@@ -1,0 +1,35 @@
+/* lets arrange our nav items :horizontal */
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-right: 95px;
+}
+
+li{
+    color: blue;
+    list-style-type: none;
+    
+}
+
+.Book{
+    margin-right: auto;
+    
+}
+
+img{
+    max-width: 80px;
+}
+
+.home{
+    color: rgb(245, 109, 4);
+    
+}
+
+.home::after{
+   content: ''; 
+   height: 2px;
+   width: 100%;
+   background: rgb(0, 183, 255);
+}
