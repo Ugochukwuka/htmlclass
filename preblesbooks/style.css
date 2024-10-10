@@ -1,5 +1,6 @@
 /* lets arrange our nav items :horizontal */
 
+
 ul{
     display: flex;
     justify-content: flex-end;
@@ -27,9 +28,3 @@ img{
     
 }
 
-.home::after{
-   content: ''; 
-   height: 2px;
-   width: 100%;
-   background: rgb(0, 183, 255);
-}
