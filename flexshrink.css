@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.flex-container{
+    width: 100%;
+    border: 7px solid black;
+    display: flex;
+}
+
+.boxes{
+    width: 450px;
+    height: 150px;
+    font-size: 130px;
+    color: white;
+
+    /* flexbox properties */
+
+   
+}
+
+.boxes:nth-of-type(1){
+    background: red;
+    flex-shrink: 2;
+}
+
+.boxes:nth-child(2){
+    background: green;
+    flex-shrink: 2;
+
+}
+
+.boxes:nth-child(3){
+    background: rgb(6, 0, 128);
+    flex-shrink: 3;
+
+}

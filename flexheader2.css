@@ -1,0 +1,109 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    /* width: 1000px; */
+    /* height: 50px; */
+    /* margin: auto; */
+    margin-top: 5px;
+    display: flex;
+    background: pink;
+    padding: 8px;
+    justify-content: space-between;
+    font-family: monospace;
+
+}
+
+ul{
+    display: flex;
+    margin-top: 10px;
+    gap: 8px;
+    list-style-type: none;
+    /* border: 1px solid white; */
+    /* background: white; */
+
+} 
+
+/* .left-links ul{
+    width: 400px;
+    display: flex;
+    list-style-type: none; */
+    /* justify-content: start; */
+    /* margin-top: 15px; */
+    /* gap: 15px; */
+    /* margin-left: 15px; */
+    
+/* } */
+
+a{
+    text-decoration: none;
+    font-size: 22px;
+    padding: 8px;
+    text-decoration: none;
+    background: white;
+}
+
+.logo{
+    width: 100px;
+    font-size: 34px;
+    background: #ffff;
+    font-weight: bold;
+   color: tomato;
+   padding: 4px 12px; 
+    
+
+}
+
+/* .right-links ul{
+    width: 400px;
+    display: flex;
+    margin-top: 15px;
+    list-style: none; */
+    /* justify-content: end; */
+    /* gap: 15px; */
+/* } */
+
+/* .right-links ul a{
+    text-decoration: none;
+
+}  */
+
+
+/*
+.logo{
+    font-size: 48px;
+    font-weight: 900;
+    color: tomato;
+    background: white;
+    padding: 4px 32px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    font-size: 22px;
+    background: white;
+    padding: 8px;
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+    margin-top: 20px;
+}
+.header{
+    display: flex;
+    padding: 8px;
+    justify-content: space-between;
+    font-family: monospace;
+    background: papayawhip
+}

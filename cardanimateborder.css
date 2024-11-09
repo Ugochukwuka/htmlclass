@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: black;
+
+}
+
+div{
+    
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(82, 82, 82);
+}
+
+div::after{
+    content: '';
+    position: absolute;
+    height: 32%;
+    width: 45%;
+    background: red;
+    top: 44%;
+    left: 28%;
+    translate: 0 -90%;
+    z-index: -1;
+    padding: 3px;
+}
+h2{
+    text-transform: lowercase;
+    text-align: center;
+    padding-top: 1 5px;
+    font-size: 30px;
+}
+
+p{
+
+    font-size: 16px;
+    text-align: center;
+}

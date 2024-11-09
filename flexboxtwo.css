@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+ 
+/*A right-aligned navigation element on the very top of our website
+Let it be centered on medium-sized screen and
+single-columned on small devices. */
+.navigation ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    background: deepskyblue;
+}
+
+.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+}
+
+.navigation a:hover{
+    background: #1565C0;
+}
+
+@media (max-width: 800px){
+    .navigation ul{
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 600px){
+    .navigation ul{
+        flex-flow: column wrap;
+        padding: 0;
+    }
+
+    
+    .navigation a {
+        color: white;
+        border-bottom: 1px solid rgb(96, 94, 94);
+        text-align: center;
+    }
+    
+    .navigation li:last-of-type a {
+        border-bottom: none;
+    }
+
+    .navigation a:hover{
+        background: #1565C0;
+    }
+}

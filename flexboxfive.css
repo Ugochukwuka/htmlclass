@@ -1,0 +1,89 @@
+/* reset the border, margin, box-sizing */
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Style our flexcontainer */
+.flex-container{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background: rgb(139, 139, 218);
+    padding: 10px;
+    flex-wrap: wrap;
+    
+}
+
+.item{
+    color: #ffff;
+    margin-right: 20px;
+}
+
+.item:nth-child(1){
+    margin-right: auto;
+    margin-left: 15px;
+}
+
+.flexcrash{
+    width: 100%;
+    display: flex;
+    background: rgb(56, 56, 232);
+    height: 260px;
+    flex-wrap: wrap;
+}
+
+.crashitem:nth-child(1){
+    color: #ffff;
+    width: 70%;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: start;
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+.crashitem:nth-child(2){
+    padding-top: 80px;
+    margin: auto;
+}
+
+.crashitem:nth-child(3){
+    color: #ffff;
+    width: 40%;
+    margin-left: 15px;
+    margin-bottom: 120px;
+}
+
+.flex-boxes{
+    width: 100%;
+    background: rgb(196, 198, 228);
+    height: max-content;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.letsalign{
+    border: 1px solid green;
+    height: 130px;
+    background: rgb(56, 56, 232);
+    margin-top: 20px;
+    width: 400px;
+    border-radius: 10px;
+    color: #ffff;
+    flex-wrap: wrap;
+}
+
+.letsalign h1{
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.letsalign p{
+    margin-left: 10px;
+    margin-top: 5px;
+}
