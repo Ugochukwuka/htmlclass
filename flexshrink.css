@@ -29,7 +29,7 @@
 
 .boxes:nth-child(2){
     background: green;
-    flex-shrink: 2;
+    flex-grow: 0;
 
 }
 
